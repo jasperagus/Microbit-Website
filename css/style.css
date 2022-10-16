@@ -3,12 +3,13 @@
 	padding: 0;
 }
 
+
 nav{
 	text-align: right;
 }
 
 body{
-	background-color: #2a2a2a;
+	background-color: black;
 	color: white;
 	font-family: sans-serif;
 }
@@ -17,7 +18,7 @@ header{
 	padding: 20px;
 	color:	white;
 	text-decoration: none;
-	background-color: black;
+	background-color: #ff0000;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,4 +71,38 @@ nav a{
 }
 nav a:hover{
 	background-color: grey;
+}
+
+
+.orderedList{	
+	text-align: center;
+}
+
+
+.weekchecks{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#border{
+	border-width: 1px;
+	border: solid;
+	margin-right: 10px;
+}
+
+#border:hover{
+	color: black;
+	background-color: lightgray;
+}
+.Backtoweekchecks{
+	color: aqua;
+}
+.links{
+	border: 5px solid white;;
+    border-radius: 10px;
+	display: inline-block;
+    padding: 5px;
+}
+.about{
+	text-align: center;
 }
